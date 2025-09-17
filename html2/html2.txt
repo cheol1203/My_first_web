@@ -1,0 +1,72 @@
+1) HTML 태그
+
+
+1-1) HTML 기본 형식 태그
+
+<!DOCTYPE html> : HTML 문서에 대한 버전입니다. 현재 버전은 HTML5 버전입니다.
+
+<html> : HTML 문서의 시작과 끝입니다.
+
+<html lang="ko"> : 언어 설정이 HTML 문서 선언 시에 필요합니다.
+
+<head> : 링크, 타이틀과 같은 웹 문서에 대한 설정 부분입니다.
+
+<title> : HTML 문서에 대한 제목입니다.
+
+<meta charset="uft-8"> : HTML 문서의 인코딩 방식입니다.
+
+<body> : HTML 문서의 내용입니다.
+
+
+1-2) HTML 기본 내용 태그
+
+<br> : break
+
+개행 처리하는 단독 태그입니다. 중복 사용 가능합니다.
+
+
+<img> : image
+
+src(source)를 통해 이미지를 로드하는 태그입니다.
+
+alt(alternate)를 통해 이미지에 대한 설명을 작성합니다.
+
+
+<h1> ~ <h6> : heading
+
+콘텐츠의 제목 태그입니다.
+
+
+<!-- --> : comment
+
+주석 영역 태그입니다.
+
+
+<a> : anchor
+
+링크 태그입니다.
+
+href(hyper reference)를 통해 링크 경로를 설정합니다.
+
+
+<li> : list
+
+리스트 태그입니다. 동일 반복 요소를 제작할 때 사용됩니다.
+
+ol(ordered list), ul(unordered list) 태그를 컨테이너로 사용합니다.
+
+
+1-3) HTML 디자인 태그
+
+<header>, <nav>, <section>, <footer> : semantic tag
+
+의미를 가진 형식 태그(semantic)는 HTML5 버전에서 나온 태그입니다.
+
+id 속성을 추가해서 정리할 수 있습니다.
+
+
+<div> : division
+
+의미를 가지지 않는 형식 태그입니다.
+
+id, class 속성을 추가해서 정리할 수 있습니다.
